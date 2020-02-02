@@ -1,6 +1,5 @@
 from my_libraries.overlap import Overlap
 
-
 true_result = Overlap((1, 5), (2, 6))
 
 false_result = Overlap((1, 5), (6, 8))
