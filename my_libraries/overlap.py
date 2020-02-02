@@ -7,7 +7,6 @@ class Overlap:
     result = None
 
     def __init__(self, line1: Line, line2: Line):
-        super().__init__()
         self.result = self.run(line1, line2)
 
     def is_number_inside_boundaries(self, number: int, boundaries: Line) -> bool:
